@@ -1,5 +1,5 @@
 #include <iostream>
-#include "add.cpp"
+#include "add.h"
 using namespace std;
 /*
   Runs codefights arcade tests
