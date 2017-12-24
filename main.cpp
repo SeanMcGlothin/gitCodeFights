@@ -3,6 +3,7 @@
 using namespace std;
 /*
   Runs codefights arcade tests
+  Now on GitHub
  */
 int add(int x, int y);
 int main(){
