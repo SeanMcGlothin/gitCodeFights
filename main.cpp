@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "pointer.h"
+
 using namespace std;
 /*
  * Start Testing Arrays
