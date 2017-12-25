@@ -1,22 +1,28 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
 /*
  * Start Testing Arrays
  */
 //int centuryFromYear(int year);
-int main(){
+void pointer(){
   int *val = new int;
+  vector<int> inputSeq;
   do{
     cout << "Enter a val" << endl;
     cin >> *val;
     if (*val){
-      cout << "Val = " << *val << endl;
-    }else{
-      cout << "Aborting" << endl;
-      break;
-    }
+      //cout << "Val = " << *val << endl;
+      inputSeq.push_back(*val);
+      cout << "The pointer position is " << val << endl;
+    }//else{
+      //cout << "Aborting" << endl;
+      //break;
+    //}
   }while(*val);
-  return 0;
+  cout << "Your vector is:";
+  for (vector<int>::iterator it = inputSeq.begin(); it != inputSeq.end(); ++it){
+    cout << ' ' << *it;
+  }
+  cout << endl;
 }
