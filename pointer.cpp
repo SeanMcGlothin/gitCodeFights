@@ -1,10 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-/*
- * Start Testing Arrays
- */
-//int centuryFromYear(int year);
 void pointer(){
   int *val = new int;
   vector<int> inputSeq;
